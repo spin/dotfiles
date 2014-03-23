@@ -1,0 +1,9 @@
+[core]
+    editor = vim
+[color]
+	ui = true
+    diff = auto
+[alias]
+    st = status
+    ci = commit
+    tip = log -1 HEAD
