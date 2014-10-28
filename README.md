@@ -2,7 +2,7 @@
 
 ## About
 
-This is some configurations and plugins I used in my daily job.
+Here are some configurations and plugins I used in my daily job.
 
 ## Vundle Installation
 
