@@ -15,6 +15,7 @@ This is some configurations and plugins I used in my daily job.
     - Add whatever additional plugins you like to `.vimrc`.
 
 3. Install plugins:
+
     Launch `vim` and run `:PluginInstall`
 
 4. Done! Enjoy you plugins!
