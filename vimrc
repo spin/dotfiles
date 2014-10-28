@@ -11,15 +11,17 @@
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/Vundle.vim
+set rtp+=~/.vim/bundle/vundle
 call vundle#begin()
-
 Plugin 'gmarik/Vundle.vim'
+
+" My plugins here
 Plugin 'majutsushi/tagbar'
 Plugin 'scrooloose/nerdcommenter'
+Plugin 'mattn/emmet-vim'
 
 call vundle#end()
 filetype plugin indent on
 
-nmap <F8> :TagbarToggle<CR>
+nmap <F5> :TagbarToggle<CR>
 
