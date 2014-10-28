@@ -8,7 +8,7 @@ This is some configurations and plugins I used in my daily job.
 
 1. Download [Vundle](https://github.com/gmarik/Vundle.vim):
 
-    git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/vundle
+    `$ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/vundle`
 
 2. Configure plugins:
     - Copy the `vimrc` to `~/.vimrc`. 
