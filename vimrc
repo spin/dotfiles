@@ -6,4 +6,20 @@
 :set shiftwidth=4
 :set expandtab
 :set background=dark
-:filetype plugin off
+
+" Vundle settings
+set nocompatible
+filetype off
+
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'gmarik/Vundle.vim'
+Plugin 'majutsushi/tagbar'
+Plugin 'scrooloose/nerdcommenter'
+
+call vundle#end()
+filetype plugin indent on
+
+nmap <F8> :TagbarToggle<CR>
+
