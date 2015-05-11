@@ -1,0 +1,10 @@
+#!/bin/bash
+# This hook is sourced after this virtualenv is activated.
+
+# for Django project
+export DJANGO_SETTINGS_MODULE="[project].settings.local"
+export DJANGO_SECRET_KEY=""
+export DJANGO_DB_NAME=""
+export DJANGO_DB_ACCOUNT=""
+export DJANGO_DB_PASSWORD=""
+
