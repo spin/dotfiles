@@ -15,3 +15,11 @@ alias mkv3='mkvirtualenv --no-site-packages --python=/usr/local/Cellar/python3/3
 alias pgstart='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'
 alias pgstop='pg_ctl -D /usr/local/var/postgres stop -s -m fast'
 
+# PyCharm
+export IDEA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home"
+
+# MongoDB
+alias mongostart='sudo mongod --config /usr/local/etc/mongod.conf --auth'
+
+# Java
+export JAVA_HOME=$(/usr/libexec/java_home)
