@@ -31,6 +31,3 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 # Elasticsearch
 alias elas_start='elasticsearch --config=/usr/local/opt/elasticsearch/config/elasticsearch.yml'
 
-# Security key for Laravel
-export APP_KEY='LONB3P4qtcewVPGhLotRV9LBYaBr9UPK'
-
