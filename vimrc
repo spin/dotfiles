@@ -7,6 +7,9 @@
 :set expandtab
 :set background=dark
 
+" Show the matching part of the pair for [] {} and ()
+:set showmatch
+
 " Vundle settings
 set nocompatible
 filetype off
