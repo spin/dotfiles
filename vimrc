@@ -22,6 +22,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'majutsushi/tagbar'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'mattn/emmet-vim'
+Plugin 'vim-scripts/indentpython.vim'
 
 call vundle#end()
 filetype plugin indent on
