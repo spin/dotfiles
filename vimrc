@@ -25,3 +25,5 @@ filetype plugin indent on
 
 nmap <F5> :TagbarToggle<CR>
 
+" Add extra spaces when commenting
+let g:NERDSpaceDelims=1
