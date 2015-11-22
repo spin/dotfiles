@@ -1,4 +1,5 @@
 alias ls='ls -G'
+alias ll='ls -l'
 export PATH=/usr/local/bin:$PATH
 
 # For virtualenvwrapper
