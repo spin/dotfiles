@@ -31,3 +31,8 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 # Elasticsearch
 alias elas_start='elasticsearch --config=/usr/local/opt/elasticsearch/config/elasticsearch.yml'
 
+# Style 1
+# export LSCOLORS="gxfxcxdxbxegedabagacad"
+
+# Style 2
+export LSCOLORS="exfxcxdxbxexexabagacad"
