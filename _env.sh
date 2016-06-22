@@ -36,3 +36,6 @@ alias elas_start='elasticsearch --config=/usr/local/opt/elasticsearch/config/ela
 
 # Style 2
 export LSCOLORS="exfxcxdxbxexexabagacad"
+
+export NVM_DIR="$HOME/.nvm"
+. "$(brew --prefix nvm)/nvm.sh"
